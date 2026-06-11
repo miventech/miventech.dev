@@ -1,0 +1,3 @@
+# Place your resume.pdf at this exact path (public/resume.pdf).
+# Once added, the "Download résumé" buttons in the hero and navbar will serve it.
+# A real PDF is NOT included in this commit to avoid leaking PII.

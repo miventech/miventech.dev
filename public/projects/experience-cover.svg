@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Experience System for Unity">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#13131f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#ff8a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g transform="translate(160 420)">
+    <path d="M 0 0 Q 200 -240 400 -120 T 800 0 T 880 60" fill="none" stroke="url(#acc)" stroke-width="3"/>
+    <circle r="8" fill="#a48bff"/>
+    <text x="0" y="40" font-family="ui-monospace,monospace" font-size="12" fill="#9a9ab0">L1</text>
+    <circle cx="200" cy="-180" r="8" fill="#a48bff"/>
+    <text x="200" y="-160" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12" fill="#9a9ab0">L5</text>
+    <circle cx="400" cy="-120" r="8" fill="#a48bff"/>
+    <text x="400" y="-100" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12" fill="#9a9ab0">L10</text>
+    <circle cx="600" cy="-20" r="8" fill="#a48bff"/>
+    <text x="600" y="0" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12" fill="#9a9ab0">L25</text>
+    <circle cx="800" cy="0" r="8" fill="#a48bff"/>
+    <text x="800" y="20" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12" fill="#9a9ab0">L50</text>
+    <circle cx="880" cy="60" r="8" fill="#a48bff"/>
+    <text x="880" y="80" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12" fill="#9a9ab0">L99</text>
+  </g>
+  <g transform="translate(600 660)" font-family="ui-sans-serif,system-ui" text-anchor="middle">
+    <text font-size="32" font-weight="600" fill="#e7e7ee">Experience System</text>
+    <text y="36" font-size="16" fill="#9a9ab0">Linear · Polynomial · Exponential · Time-based</text>
+  </g>
+</svg>

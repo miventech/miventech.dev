@@ -1,0 +1,153 @@
+{
+  "site": {
+    "name": "Miventech",
+    "tagline": "Construyendo juegos, sistemas y herramientas con Unity y C#.",
+    "shortBio": "Desarrollador Unity & VR/XR enfocado en sistemas de gameplay, herramientas nativas del motor y experiencias interactivas. Mantenedor de open-source bajo MIT con 25★ en GitHub y más de 17 títulos publicados en itch.io."
+  },
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "skills": "Stack",
+    "work": "Trabajo",
+    "content": "Contenido",
+    "github": "GitHub",
+    "career": "Trayectoria",
+    "contact": "Contacto",
+    "viewProjects": "Ver proyectos",
+    "getInTouch": "Hablemos",
+    "downloadResume": "Descargar CV"
+  },
+  "hero": {
+    "status": "Disponible para nuevos proyectos · Q3/Q4 2026",
+    "headline": "Desarrollador de juegos Unity",
+    "subheadline": "Programador de Gameplay · Ingeniero de herramientas · Creador de contenido técnico",
+    "description": "Diseño sistemas de gameplay, publico herramientas nativas de Unity y entrego experiencias interactivas — en solitario y con equipos. Desde Perú, trabajando con estudios de todo el mundo.",
+    "primaryCta": "Ver proyectos",
+    "secondaryCta": "Descargar CV",
+    "tertiaryCta": "Hablemos"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Ingeniero, constructor, divulgador.",
+    "lead": "Soy José Jaspe — conocido en línea como Miventech. Llevo varios años construyendo juegos, herramientas y experiencias interactivas con Unity y C#, mientras comparto lo que aprendo en YouTube y TikTok.",
+    "body": [
+      "Mi trabajo recorre toda la pila de Unity: sistemas de gameplay, tooling de editor a medida, pipelines de importación de assets, renderizado y la infraestructura transversal que mantiene vivo a un proyecto cuando crece.",
+      "Me importa la arquitectura limpia — SOLID, patrones de diseño, sistemas orientados a eventos — y publicar cosas que la gente realmente use. La mayoría de mis herramientas son MIT y algunas se han convertido en pequeños estándares open-source (NativeVoxReader tiene 25★ en GitHub).",
+      "Actualmente trabajo en una herramienta GIS multiplataforma que corre en VR y Windows, con una capa de programación visual basada en nodos para visualizar modelos de Revit y AutoCAD."
+    ],
+    "principles": {
+      "title": "Cómo trabajo",
+      "items": [
+        {
+          "title": "Publicar, luego iterar.",
+          "body": "Pequeños builds funcionando le ganan a grandes proyectos sin terminar. Cada proyecto aquí fue publicado — nada de vapor."
+        },
+        {
+          "title": "La arquitectura es una feature.",
+          "body": "El código se lee más de lo que se escribe. Invierto en patrones, naming y tooling que se pagan con el tiempo."
+        },
+        {
+          "title": "Las herramientas componen.",
+          "body": "Un buen script de editor o una librería de runtime se amortiza en cada proyecto. Por eso casi todo mi trabajo es open-source."
+        },
+        {
+          "title": "Enseñar para aprender.",
+          "body": "Compartir el trabajo en público — videos, código, devlogs — es como me mantengo honesto y mejoro más rápido."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Las herramientas del oficio",
+    "subtitle": "Agrupadas por área. Todo esto lo he llevado a producción, no son demos.",
+    "currentlyLearning": "Aprendiendo ahora:",
+    "learning": "Generación procedural de contenido, sistemas de crecimiento procedural de plantas y pipelines de modding."
+  },
+  "projects": {
+    "eyebrow": "Trabajo destacado",
+    "title": "Proyectos seleccionados",
+    "subtitle": "Una mezcla de juegos publicados, tooling Unity bajo MIT y prototipos de game jams. Haz clic en cualquier tarjeta para ver el caso de estudio completo.",
+    "viewAll": "Ver todos los proyectos",
+    "filters": {
+      "all": "Todos",
+      "game": "Juegos",
+      "tool": "Herramientas",
+      "library": "Librerías",
+      "jam": "Jams",
+      "experiment": "Experimentos"
+    },
+    "caseStudy": {
+      "role": "Rol",
+      "year": "Año",
+      "stack": "Stack",
+      "highlights": "Highlights",
+      "links": "Enlaces",
+      "license": "Licencia",
+      "status": "Estado",
+      "backToProjects": "← Volver a proyectos",
+      "otherProjects": "Más proyectos"
+    },
+    "noLink": "Próximamente",
+    "github": "GitHub",
+    "itch": "itch.io",
+    "play": "Google Play",
+    "repo": "Código",
+    "demo": "Demo",
+    "video": "Video"
+  },
+  "assets": {
+    "eyebrow": "Assets publicados",
+    "title": "Packs de assets en itch.io",
+    "subtitle": "Además de juegos y herramientas, publico packs de assets lowpoly y voxel para otros desarrolladores.",
+    "viewOnItch": "Ver en itch.io",
+    "free": "Gratis",
+    "paid": "Pago"
+  },
+  "content": {
+    "eyebrow": "Contenido",
+    "title": "Enseñar en público",
+    "subtitle": "Formato largo en YouTube, formato corto en TikTok, y el código completo en GitHub."
+  },
+  "github": {
+    "eyebrow": "Open source",
+    "title": "En GitHub",
+    "subtitle": "Más de 23 repositorios públicos — herramientas, librerías, código de juegos y experimentos. La mayoría bajo MIT.",
+    "viewProfile": "Abrir perfil",
+    "topLangs": "Lenguajes principales",
+    "pinned": "Repositorios destacados"
+  },
+  "career": {
+    "eyebrow": "Trayectoria",
+    "title": "Cifras",
+    "subtitle": "Números concretos del trabajo, no aspirations."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Construyamos algo.",
+    "lead": "Tomo trabajo freelance selecto y colaboraciones — sistemas de gameplay, tooling nativo de Unity, pipelines de assets, partnerships para jams. Tarifas razonables, deadlines en serio.",
+    "form": {
+      "name": "Tu nombre",
+      "email": "Tu email",
+      "message": "Cuéntame del proyecto, alcance y plazos",
+      "send": "Abrir en tu app de correo",
+      "sending": "Preparando…",
+      "note": "No necesita backend — el formulario abre tu cliente de correo con el mensaje pre-rellenado. El email se mantiene privado en el sitio para evitar scrapers."
+    },
+    "social": "Encuéntrame online",
+    "or": "o"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con Next.js, TypeScript, Tailwind y Framer Motion.",
+    "deployed": "Desplegado en Vercel.",
+    "openSource": "Código disponible en GitHub."
+  },
+  "common": {
+    "comingSoon": "Próximamente",
+    "newBadge": "Nuevo",
+    "viewMore": "Ver más",
+    "backToTop": "Volver arriba"
+  }
+}

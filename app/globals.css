@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg text-fg antialiased;
+    font-feature-settings: "ss01", "cv01", "cv11";
+    background-image: radial-gradient(
+        ellipse 80% 60% at 50% -10%,
+        rgba(124, 92, 255, 0.12),
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 60% 50% at 90% 10%,
+        rgba(255, 138, 76, 0.06),
+        transparent 60%
+      );
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-fg;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+
+  a {
+    @apply outline-none;
+  }
+  a:focus-visible,
+  button:focus-visible {
+    @apply ring-2 ring-accent/60 ring-offset-2 ring-offset-bg rounded-sm;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-3xl px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-mono uppercase tracking-[0.18em] text-accent-glow;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-gradient-to-r from-transparent to-accent/60;
+  }
+
+  .heading-1 {
+    @apply text-4xl font-semibold sm:text-5xl md:text-6xl lg:text-7xl;
+  }
+
+  .heading-2 {
+    @apply text-3xl font-semibold sm:text-4xl md:text-5xl;
+  }
+
+  .heading-3 {
+    @apply text-xl font-semibold sm:text-2xl;
+  }
+
+  .text-muted {
+    @apply text-fg-muted;
+  }
+  .text-dim {
+    @apply text-fg-dim;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-fg text-bg hover:bg-fg/90 active:scale-[0.98];
+  }
+
+  .btn-accent {
+    @apply btn bg-accent text-white hover:bg-accent-glow active:scale-[0.98] shadow-glow;
+  }
+
+  .btn-ghost {
+    @apply btn border border-bg-line bg-bg-card/40 text-fg hover:bg-bg-card hover:border-fg-dim;
+  }
+
+  .btn-link {
+    @apply inline-flex items-center gap-1.5 text-sm font-medium text-fg-muted hover:text-fg transition-colors;
+  }
+
+  .card {
+    @apply rounded-2xl border border-bg-line bg-bg-card/60 backdrop-blur-sm transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:border-accent/30 hover:-translate-y-0.5 hover:shadow-card;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-bg-line bg-bg-soft/70 px-3 py-1 text-xs font-mono uppercase tracking-wider text-fg-muted;
+  }
+
+  .chip-accent {
+    @apply chip border-accent/30 bg-accent/10 text-accent-glow;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-br from-fg via-fg to-accent-glow bg-clip-text text-transparent;
+  }
+
+  .grid-bg {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  .divider {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-bg-line to-transparent;
+  }
+
+  .link-underline {
+    @apply relative inline-block;
+  }
+  .link-underline::after {
+    content: "";
+    @apply absolute left-0 -bottom-0.5 h-px w-0 bg-current transition-all duration-300;
+  }
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .mask-fade-y {
+    mask-image: linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
+  }
+
+  .mask-fade-r {
+    mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scroll-mt-nav {
+    scroll-margin-top: 5rem;
+  }
+}

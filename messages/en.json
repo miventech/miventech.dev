@@ -1,0 +1,153 @@
+{
+  "site": {
+    "name": "Miventech",
+    "tagline": "Building games, systems and tools with Unity and C#.",
+    "shortBio": "Unity & VR/XR Developer focused on gameplay systems, native engine tooling and interactive experiences. MIT-licensed open-source maintainer with 25★ on GitHub and 17+ titles shipped on itch.io."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Skills",
+    "work": "Work",
+    "content": "Content",
+    "github": "GitHub",
+    "career": "Highlights",
+    "contact": "Contact",
+    "viewProjects": "View projects",
+    "getInTouch": "Get in touch",
+    "downloadResume": "Download résumé"
+  },
+  "hero": {
+    "status": "Available for new projects · Q3/Q4 2026",
+    "headline": "Unity Game Developer",
+    "subheadline": "Gameplay Programmer · Tools Engineer · Technical Content Creator",
+    "description": "I design gameplay systems, ship native Unity tools and publish interactive experiences — solo and with teams. Based in Peru, working with studios worldwide.",
+    "primaryCta": "View projects",
+    "secondaryCta": "Download résumé",
+    "tertiaryCta": "Get in touch"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Engineer, builder, teacher.",
+    "lead": "I’m José Jaspe — known online as Miventech. I’ve spent the last several years building games, tools and interactive experiences with Unity and C#, while sharing what I learn on YouTube and TikTok.",
+    "body": [
+      "My work spans the full stack of Unity: gameplay systems, custom editor tooling, asset import pipelines, rendering, and the kind of cross-cutting infrastructure that keeps a project alive as it grows.",
+      "I care about clean architecture — SOLID, design patterns, event-driven systems — and about shipping things that real people actually use. Most of my tools are MIT-licensed and a few have become small open-source standards (NativeVoxReader is at 25★ on GitHub).",
+      "I’m currently working on a cross-platform GIS tool that runs in VR and on Windows, with a node-based visual programming layer for visualising Revit and AutoCAD models."
+    ],
+    "principles": {
+      "title": "How I work",
+      "items": [
+        {
+          "title": "Ship, then iterate.",
+          "body": "Small working builds beat large unfinished ones. Every project here was released publicly — no vapor."
+        },
+        {
+          "title": "Architecture is a feature.",
+          "body": "Code is read more than written. I invest in patterns, naming, and tooling that pay back over the lifetime of a project."
+        },
+        {
+          "title": "Tools compound.",
+          "body": "A good editor script or runtime library pays off across every project. That’s why most of my work is open-source."
+        },
+        {
+          "title": "Teach to learn.",
+          "body": "Sharing the work publicly — videos, source, devlogs — is how I keep myself honest and improve fastest."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Tools of the trade",
+    "subtitle": "Grouped by area. Anything here I’ve shipped in production, not just toy demos.",
+    "currentlyLearning": "Currently learning:",
+    "learning": "Procedural content generation, procedural plant growth systems, and game-modding pipelines."
+  },
+  "projects": {
+    "eyebrow": "Featured work",
+    "title": "Selected projects",
+    "subtitle": "A mix of shipped games, MIT-licensed Unity tooling and game-jam prototypes. Click any card for the full case study.",
+    "viewAll": "View all projects",
+    "filters": {
+      "all": "All",
+      "game": "Games",
+      "tool": "Tools",
+      "library": "Libraries",
+      "jam": "Jams",
+      "experiment": "Experiments"
+    },
+    "caseStudy": {
+      "role": "Role",
+      "year": "Year",
+      "stack": "Stack",
+      "highlights": "Highlights",
+      "links": "Links",
+      "license": "License",
+      "status": "Status",
+      "backToProjects": "← Back to projects",
+      "otherProjects": "More projects"
+    },
+    "noLink": "Coming soon",
+    "github": "GitHub",
+    "itch": "itch.io",
+    "play": "Google Play",
+    "repo": "Source",
+    "demo": "Demo",
+    "video": "Video"
+  },
+  "assets": {
+    "eyebrow": "Published assets",
+    "title": "Asset packs on itch.io",
+    "subtitle": "Beyond games and tools, I publish lowpoly and voxel asset packs for other developers.",
+    "viewOnItch": "View on itch.io",
+    "free": "Free",
+    "paid": "Paid"
+  },
+  "content": {
+    "eyebrow": "Content",
+    "title": "Teaching in public",
+    "subtitle": "Long-form on YouTube, short-form on TikTok, and the full source on GitHub."
+  },
+  "github": {
+    "eyebrow": "Open source",
+    "title": "On GitHub",
+    "subtitle": "23+ public repositories — tools, libraries, game source and experiments. Most of it MIT.",
+    "viewProfile": "Open profile",
+    "topLangs": "Top languages",
+    "pinned": "Pinned repositories"
+  },
+  "career": {
+    "eyebrow": "Career",
+    "title": "Highlights",
+    "subtitle": "Concrete numbers from the work, not aspirations."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s build something.",
+    "lead": "I take on selective freelance work and collaborations — gameplay systems, native Unity tooling, asset pipelines, game-jam partnerships. Reasonable rates, serious about deadlines.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Tell me about your project, scope and timeline",
+      "send": "Open in mail app",
+      "sending": "Preparing…",
+      "note": "No backend needed — the form opens your mail client with the message pre-filled. Email is kept private on the site to avoid scrapers."
+    },
+    "social": "Find me online",
+    "or": "or"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js, TypeScript, Tailwind & Framer Motion.",
+    "deployed": "Deployed on Vercel.",
+    "openSource": "Source available on GitHub."
+  },
+  "common": {
+    "comingSoon": "Coming soon",
+    "newBadge": "New",
+    "viewMore": "View more",
+    "backToTop": "Back to top"
+  }
+}
