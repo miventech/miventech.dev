@@ -613,9 +613,8 @@ export const projects: Project[] = [
     ],
     cover: "/projects/gdd-forge-cover.svg",
     gallery: [
-      "/projects/gdd-forge-cover.svg",
-      "/projects/gdd-forge-checklist.svg",
-      "/projects/gdd-forge-brainstorm.svg",
+      "/projects/gdd-forge-landing.png",
+      "/projects/gdd-forge-editor-roguelite.png",
     ],
     license: "MIT",
     status: "released",
@@ -662,9 +661,8 @@ export const projects: Project[] = [
     ],
     cover: "/projects/audio-biblia-cover.svg",
     gallery: [
-      "/projects/audio-biblia-cover.svg",
-      "/projects/audio-biblia-library.svg",
-      "/projects/audio-biblia-builder.svg",
+      "/projects/audio-biblia-main.png",
+      "/projects/audio-biblia-preset.png",
     ],
     license: "MIT",
     status: "released",

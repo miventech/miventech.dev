@@ -130,7 +130,7 @@ function ProjectCard({
   dict: Dictionary;
   index: number;
 }) {
-  const isRemote = project.cover.startsWith("http");
+  const hasImage = project.cover && (project.cover.startsWith("http") || project.cover.startsWith("/"));
   const primaryLink = project.links[0];
   const Icon = primaryLink ? linkIcon[primaryLink.kind] : ArrowUpRight;
 
@@ -148,7 +148,7 @@ function ProjectCard({
         className="block relative aspect-[16/10] overflow-hidden bg-bg-soft"
         aria-label={project.title}
       >
-        {isRemote ? (
+        {hasImage ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={project.cover}
