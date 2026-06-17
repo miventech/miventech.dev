@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="La Biblio de Promts — Builder + output view">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#13131f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#ff8a4c"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+
+  <!-- Builder (left) -->
+  <g transform="translate(40 60)">
+    <text font-family="ui-sans-serif,system-ui" font-size="14" font-weight="700" fill="#e7e7ee">🎨 CONSTRUCTOR</text>
+    <text x="600" y="0" font-family="ui-monospace,monospace" font-size="10" fill="#9a9ab0" text-anchor="end" letter-spacing="1">↶ ↷ 🎲 🗑️</text>
+
+    <rect y="20" width="640" height="500" rx="12" fill="#0e0e16" stroke="rgba(255,255,255,0.08)"/>
+
+    <!-- Chips on canvas -->
+    <g transform="translate(20 50)">
+      <rect width="170" height="40" rx="20" fill="rgba(124,92,255,0.25)" stroke="rgba(124,92,255,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">🎼 8-bit chiptune</text>
+      <text x="150" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#a48bff">×</text>
+    </g>
+    <g transform="translate(200 50)">
+      <rect width="130" height="40" rx="20" fill="rgba(124,92,255,0.25)" stroke="rgba(124,92,255,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">⚡ epic</text>
+      <text x="110" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#a48bff">×</text>
+    </g>
+    <g transform="translate(340 50)">
+      <rect width="160" height="40" rx="20" fill="rgba(255,138,76,0.25)" stroke="rgba(255,138,76,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">⏱️ 140 BPM</text>
+      <text x="140" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#ff8a4c">×</text>
+    </g>
+    <g transform="translate(20 110)">
+      <rect width="190" height="40" rx="20" fill="rgba(124,92,255,0.25)" stroke="rgba(124,92,255,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">⚔️ orch percussion</text>
+      <text x="170" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#a48bff">×</text>
+    </g>
+    <g transform="translate(220 110)">
+      <rect width="150" height="40" rx="20" fill="rgba(124,92,255,0.25)" stroke="rgba(124,92,255,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">🎸 synth lead</text>
+      <text x="130" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#a48bff">×</text>
+    </g>
+    <g transform="translate(20 170)">
+      <rect width="200" height="40" rx="20" fill="rgba(255,138,76,0.25)" stroke="rgba(255,138,76,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">🌙 dark atmosphere</text>
+      <text x="180" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#ff8a4c">×</text>
+    </g>
+    <g transform="translate(230 170)">
+      <rect width="180" height="40" rx="20" fill="rgba(255,138,76,0.25)" stroke="rgba(255,138,76,0.6)"/>
+      <text x="20" y="25" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">📈 tension build</text>
+      <text x="160" y="25" font-family="ui-sans-serif,system-ui" font-size="14" fill="#ff8a4c">×</text>
+    </g>
+
+    <!-- Intensity bar -->
+    <g transform="translate(20 240)">
+      <text font-family="ui-monospace,monospace" font-size="10" fill="#a48bff" letter-spacing="2">⚡ INTENSIDAD / VELOCIDAD</text>
+      <text x="600" y="0" font-family="ui-monospace,monospace" font-size="10" fill="#9a9ab0" text-anchor="end">70 🔒 LOCKED</text>
+      <rect y="14" width="600" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+      <rect y="14" width="420" height="8" rx="4" fill="url(#acc)"/>
+    </g>
+
+    <!-- Drop hint -->
+    <g transform="translate(20 290)">
+      <rect width="600" height="100" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-dasharray="6 4"/>
+      <text x="300" y="46" font-family="ui-sans-serif,system-ui" font-size="12" fill="#6b6b80" text-anchor="middle">Arrastra bloques aquí</text>
+      <text x="300" y="64" font-family="ui-sans-serif,system-ui" font-size="11" fill="#6b6b80" text-anchor="middle">o haz doble-click en la biblioteca</text>
+    </g>
+  </g>
+
+  <!-- Output (right) -->
+  <g transform="translate(720 60)">
+    <text font-family="ui-sans-serif,system-ui" font-size="14" font-weight="700" fill="#e7e7ee">📋 PROMPT GENERADO</text>
+    <text x="400" y="0" font-family="ui-monospace,monospace" font-size="10" fill="#9a9ab0" text-anchor="end" letter-spacing="1">📋 Copiar · .txt · .json</text>
+
+    <rect y="20" width="440" height="500" rx="12" fill="rgba(255,138,76,0.05)" stroke="rgba(255,138,76,0.4)"/>
+
+    <g transform="translate(20 50)" font-family="ui-monospace,monospace" font-size="12" fill="#e7e7ee">
+      <text>An <tspan fill="#a48bff">8-bit chiptune</tspan> track with</text>
+      <text y="20"><tspan fill="#a48bff">epic</tspan> mood and <tspan fill="#a48bff">140 BPM</tspan>,</text>
+      <text y="40">featuring <tspan fill="#a48bff">orchestral</tspan></text>
+      <text y="60"><tspan fill="#a48bff">percussion</tspan> and <tspan fill="#a48bff">synth lead</tspan></text>
+      <text y="80">with <tspan fill="#a48bff">reverb tail</tspan>.</text>
+      <text y="120" fill="#9a9ab0">─────────────────────</text>
+      <text y="148" fill="#ff8a4c">[REEMPLAZAR_DURATION]</text>
+      <text y="172" fill="#ff8a4c">[REEMPLAZAR_INSTRUMENT_LIST]</text>
+      <text y="220" fill="#9a9ab0">─────────────────────</text>
+      <text y="248" fill="#3ddc97">→ Ready for Suno / Udio</text>
+      <text y="268" fill="#3ddc97">→ Ready for Stable Audio</text>
+      <text y="288" fill="#3ddc97">→ Ready for AIVA</text>
+
+      <g transform="translate(0 320)">
+        <text fill="#a48bff" letter-spacing="1.5">⚡ VELOCITY TIER</text>
+        <text y="22" font-size="11" fill="#9a9ab0">High intensity · 130-160 BPM</text>
+      </g>
+
+      <g transform="translate(0 380)">
+        <text fill="#a48bff" letter-spacing="1.5">🎮 REFERENCES DETECTED</text>
+        <text y="22" font-size="11" fill="#9a9ab0">8-bit → Mega Man, Shovel Knight</text>
+        <text y="40" font-size="11" fill="#9a9ab0">Epic boss → Hades, Dead Cells</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(600 700)" font-family="ui-sans-serif,system-ui" text-anchor="middle">
+    <text font-size="14" fill="#9a9ab0">Drag &amp; drop · chip weight · undo/redo · auto-fill placeholders</text>
+  </g>
+</svg>

@@ -143,7 +143,7 @@ export const projects: Project[] = [
     },
     category: "library",
     year: 2026,
-    featured: true,
+    featured: false,
     stack: ["Unity", "C#", "Binary I/O", "Compression", "AES Encryption"],
     highlights: [
       "Chunk-based binary container format",
@@ -613,7 +613,9 @@ export const projects: Project[] = [
     ],
     cover: "/projects/gdd-forge-cover.svg",
     gallery: [
-      "https://gdd-forge-omega.vercel.app/editor",
+      "/projects/gdd-forge-cover.svg",
+      "/projects/gdd-forge-checklist.svg",
+      "/projects/gdd-forge-brainstorm.svg",
     ],
     license: "MIT",
     status: "released",
@@ -659,6 +661,11 @@ export const projects: Project[] = [
       { label: "GitHub", url: "https://github.com/miventech/Audio-Biblia-Promts-IA", kind: "repo" },
     ],
     cover: "/projects/audio-biblia-cover.svg",
+    gallery: [
+      "/projects/audio-biblia-cover.svg",
+      "/projects/audio-biblia-library.svg",
+      "/projects/audio-biblia-builder.svg",
+    ],
     license: "MIT",
     status: "released",
   },
