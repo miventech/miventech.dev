@@ -611,10 +611,9 @@ export const projects: Project[] = [
       { label: "Live demo", url: "https://gdd-forge-omega.vercel.app/editor", kind: "demo" },
       { label: "GitHub", url: "https://github.com/miventech/GDD-Forge", kind: "repo" },
     ],
-    cover: "/projects/gdd-forge-cover.svg",
+    cover: "/projects/gdd-forge-editor-roguelite.png",
     gallery: [
       "/projects/gdd-forge-landing.png",
-      "/projects/gdd-forge-editor-roguelite.png",
     ],
     license: "MIT",
     status: "released",
@@ -659,9 +658,8 @@ export const projects: Project[] = [
       { label: "Live demo", url: "https://audio-biblia-promts-ia.vercel.app/", kind: "demo" },
       { label: "GitHub", url: "https://github.com/miventech/Audio-Biblia-Promts-IA", kind: "repo" },
     ],
-    cover: "/projects/audio-biblia-cover.svg",
+    cover: "/projects/audio-biblia-main.png",
     gallery: [
-      "/projects/audio-biblia-main.png",
       "/projects/audio-biblia-preset.png",
     ],
     license: "MIT",

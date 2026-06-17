@@ -96,7 +96,7 @@ export default async function ProjectDetailPage({
         {project.cover && (
           <FadeIn delay={0.1}>
             <div className="mt-10 relative aspect-[16/9] overflow-hidden rounded-2xl border border-bg-line bg-bg-soft">
-              {project.cover.startsWith("http") ? (
+              {project.cover.startsWith("http") || project.cover.startsWith("/") ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={project.cover}
@@ -247,7 +247,7 @@ export default async function ProjectDetailPage({
                     href={`/${locale}/projects/${p.slug}`}
                     className="card-hover p-4 h-full flex flex-col"
                   >
-                    {p.cover.startsWith("http") ? (
+                    {p.cover.startsWith("http") || p.cover.startsWith("/") ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
                         src={p.cover}
