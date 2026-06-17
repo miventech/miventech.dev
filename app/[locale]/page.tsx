@@ -39,7 +39,7 @@ export default async function HomePage({
         dict={dict}
         projects={projects}
         showFilters={false}
-        limit={6}
+        limit={8}
       />
       <Skills locale={locale} dict={dict} />
       <AssetPacks locale={locale} dict={dict} />

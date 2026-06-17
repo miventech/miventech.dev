@@ -11,7 +11,7 @@ Built with **Next.js 14 (App Router)**, **TypeScript**, **Tailwind CSS** and **F
 - **Modern, minimal, dark UI** — no template feel; designed to read like a senior engineer's site
 - **Bilingual EN/ES** with full path-based routing (`/en/...`, `/es/...`) and SEO alternates
 - **No backend required** — contact form is a `mailto:` link, content lives in TypeScript modules
-- **18 curated projects** (real data from GitHub + itch.io), each with its own case-study page
+- **20 curated projects** (real data from GitHub + itch.io), each with its own case-study page
 - **Asset packs showcase**, **content creation section**, **GitHub stats**, **career highlights**
 - **Static exportable** → extremely fast (target Lighthouse 95+)
 - **Mobile-first, accessible, reduced-motion aware**, semantic HTML, full keyboard nav
@@ -198,7 +198,7 @@ The code itself is correct and production-ready. The issue is purely an environm
 
 All project data, skills, asset packs and stats are sourced from real public profiles — no fabrication:
 
-- **GitHub**: [github.com/miventech](https://github.com/miventech) (23 public repos)
+- **GitHub**: [github.com/miventech](https://github.com/miventech) (26+ public repos)
 - **itch.io**: [miventech.itch.io](https://miventech.itch.io) (17+ titles)
 - **YouTube**: [youtube.com/@MiVenTech](https://www.youtube.com/@MiVenTech)
 - **TikTok**: [tiktok.com/@miventech](https://www.tiktok.com/@miventech)

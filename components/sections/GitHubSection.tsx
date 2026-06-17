@@ -31,6 +31,28 @@ const pinnedRepos: PinnedRepo[] = [
     topics: ["unity", "voxel", "csharp", "package-manager", "greedy-meshing"],
   },
   {
+    name: "GDD-Forge",
+    fullName: "miventech/GDD-Forge",
+    description:
+      "Offline-first Game Design Document editor. Portable .gdd files (ZIP), 12 segment types, multi-GDD. No backend.",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/miventech/GDD-Forge",
+    topics: ["nextjs", "typescript", "gdd", "indie-game-dev", "offline-first"],
+  },
+  {
+    name: "Audio-Biblia-Promts-IA",
+    fullName: "miventech/Audio-Biblia-Promts-IA",
+    description:
+      "Audio & SFX prompt builder for roguelite games. 263 blocks, 11 presets, drag & drop, zero backend, ~250 KB.",
+    language: "JavaScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/miventech/Audio-Biblia-Promts-IA",
+    topics: ["vanilla-js", "audio", "prompts", "roguelite", "ai"],
+  },
+  {
     name: "ExperienceSystemForUnity",
     fullName: "miventech/ExperienceSystemForUnity",
     description:
@@ -95,6 +117,7 @@ const languageColor: Record<string, string> = {
   HTML: "#e34c26",
   Rust: "#dea584",
   PowerShell: "#012456",
+  CSS: "#563d7c",
 };
 
 export function GitHubSection({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -187,12 +210,13 @@ export function GitHubSection({ locale, dict }: { locale: Locale; dict: Dictiona
               </p>
               <ul className="mt-4 space-y-3">
                 {[
-                  { name: "C#", pct: 88 },
-                  { name: "JavaScript", pct: 4 },
+                  { name: "C#", pct: 80 },
+                  { name: "TypeScript", pct: 8 },
+                  { name: "JavaScript", pct: 5 },
                   { name: "HTML", pct: 3 },
-                  { name: "Rust", pct: 2 },
-                  { name: "PowerShell", pct: 2 },
-                  { name: "Other", pct: 1 },
+                  { name: "CSS", pct: 2 },
+                  { name: "Rust", pct: 1 },
+                  { name: "PowerShell", pct: 1 },
                 ].map((lang) => (
                   <li key={lang.name}>
                     <div className="flex items-center justify-between text-xs">
@@ -216,7 +240,7 @@ export function GitHubSection({ locale, dict }: { locale: Locale; dict: Dictiona
               </ul>
 
               <div className="mt-6 pt-6 border-t border-bg-line space-y-2 text-sm">
-                <Row label="Public repos" value="23+" />
+                <Row label="Public repos" value="26+" />
                 <Row label="Followers" value="3" />
                 <Row label="Following" value="15" />
                 <Row label="Top stars" value="25★" />
@@ -229,7 +253,7 @@ export function GitHubSection({ locale, dict }: { locale: Locale; dict: Dictiona
                 className="mt-6 inline-flex items-center gap-1.5 text-xs text-fg-dim hover:text-fg"
               >
                 <Code2 className="h-3.5 w-3.5" />
-                Achievements: Starstruck
+                Achievements: Starstruck · Pull Shark
               </a>
             </div>
           </FadeIn>

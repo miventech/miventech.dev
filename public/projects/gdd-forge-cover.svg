@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="GDD-Forge — Offline Game Design Document editor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#13131f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#ff8a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+
+  <!-- Document outline -->
+  <g transform="translate(360 130)">
+    <rect width="480" height="540" rx="12" fill="#13131f" stroke="rgba(255,255,255,0.08)"/>
+    <!-- Hero section -->
+    <rect x="24" y="24" width="432" height="100" rx="8" fill="url(#acc)" opacity="0.18"/>
+    <text x="44" y="62" font-family="ui-monospace,monospace" font-size="11" fill="#a48bff" letter-spacing="2">EYEBROW</text>
+    <text x="44" y="98" font-family="ui-sans-serif,system-ui" font-size="24" font-weight="700" fill="#e7e7ee">GAME TITLE</text>
+
+    <!-- Text segment -->
+    <rect x="24" y="144" width="432" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+    <rect x="24" y="160" width="380" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+    <rect x="24" y="176" width="300" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+
+    <!-- Grid 3 columns -->
+    <g transform="translate(24 208)">
+      <rect width="136" height="80" rx="6" fill="rgba(124,92,255,0.12)"/>
+      <rect x="148" width="136" height="80" rx="6" fill="rgba(124,92,255,0.12)"/>
+      <rect x="296" width="136" height="80" rx="6" fill="rgba(124,92,255,0.12)"/>
+      <rect x="12" y="14" width="20" height="20" rx="4" fill="rgba(124,92,255,0.6)"/>
+      <rect x="160" y="14" width="20" height="20" rx="4" fill="rgba(124,92,255,0.6)"/>
+      <rect x="308" y="14" width="20" height="20" rx="4" fill="rgba(124,92,255,0.6)"/>
+      <rect x="12" y="46" width="80" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+      <rect x="160" y="46" width="80" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+      <rect x="308" y="46" width="80" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+    </g>
+
+    <!-- Character card -->
+    <g transform="translate(24 312)">
+      <rect width="432" height="72" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+      <circle cx="44" cy="36" r="20" fill="url(#acc)" opacity="0.7"/>
+      <rect x="80" y="22" width="120" height="10" rx="3" fill="rgba(255,255,255,0.6)"/>
+      <rect x="80" y="42" width="80" height="6" rx="3" fill="rgba(255,255,255,0.25)"/>
+      <rect x="200" y="32" width="216" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+      <rect x="200" y="44" width="180" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+    </g>
+
+    <!-- Checklist rows -->
+    <g transform="translate(24 408)">
+      <rect width="16" height="16" rx="3" fill="rgba(124,92,255,0.3)" stroke="rgba(124,92,255,0.6)"/>
+      <rect x="28" y="6" width="280" height="6" rx="3" fill="rgba(255,255,255,0.35)"/>
+      <rect y="32" width="16" height="16" rx="3" fill="rgba(124,92,255,0.3)" stroke="rgba(124,92,255,0.6)"/>
+      <rect x="28" y="38" width="220" height="6" rx="3" fill="rgba(255,255,255,0.35)"/>
+      <rect y="64" width="16" height="16" rx="3" fill="rgba(124,92,255,0.3)" stroke="rgba(124,92,255,0.6)"/>
+      <rect x="28" y="70" width="300" height="6" rx="3" fill="rgba(255,255,255,0.35)"/>
+    </g>
+  </g>
+
+  <!-- File badge bottom-left -->
+  <g transform="translate(140 580)">
+    <rect width="180" height="60" rx="10" fill="rgba(124,92,255,0.15)" stroke="rgba(124,92,255,0.4)"/>
+    <text x="20" y="28" font-family="ui-monospace,monospace" font-size="11" fill="#a48bff" letter-spacing="1.5">FILE FORMAT</text>
+    <text x="20" y="48" font-family="ui-monospace,monospace" font-size="14" font-weight="600" fill="#e7e7ee">.GDD v2 · ZIP</text>
+  </g>
+
+  <g transform="translate(900 660)" font-family="ui-sans-serif,system-ui" text-anchor="middle">
+    <text font-size="36" font-weight="700" fill="#e7e7ee">GDD-Forge</text>
+    <text y="32" font-size="16" fill="#9a9ab0">Offline · Client-side · MIT</text>
+  </g>
+</svg>

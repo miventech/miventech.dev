@@ -573,6 +573,95 @@ export const projects: Project[] = [
     cover: "/projects/ply-cover.svg",
     status: "maintained",
   },
+  {
+    slug: "gdd-forge",
+    title: "GDD-Forge",
+    tagline: {
+      en: "Offline-first Game Design Document editor — portable .gdd files, zero server",
+      es: "Editor de Game Design Documents offline-first — archivos .gdd portables, cero servidor",
+    },
+    description: {
+      en: "GDD-Forge is a free, open-source, offline-first editor for writing and maintaining Game Design Documents. Multiple projects, 12 segment types (hero, character, enemy, boss, core loop, dialogue, canvas, tension curve…), checklist with task groups, design decisions, dependency-mapped features, visual brainstorm canvas, image upload and export to HTML/Markdown/PDF. Everything saves to portable .GDD files (ZIP with manifest.json + assets). No login, no server, no tracking. Built with Next.js 15, TypeScript and Tailwind.",
+      es: "GDD-Forge es un editor gratuito, open-source y offline-first para escribir y mantener Game Design Documents. Múltiples proyectos, 12 tipos de segmentos (hero, personaje, enemigo, jefe, core loop, diálogo, lienzo, curva de tensión…), checklist con grupos de tareas, decisiones de diseño, features con dependencias, canvas visual de brainstorm, subida de imágenes y export a HTML/Markdown/PDF. Todo se guarda en archivos .GDD portables (ZIP con manifest.json + assets). Sin login, sin servidor, sin tracking. Construido con Next.js 15, TypeScript y Tailwind.",
+    },
+    role: {
+      en: "Solo Developer (Design, Code, Architecture)",
+      es: "Desarrollador único (Diseño, Código, Arquitectura)",
+    },
+    category: "tool",
+    year: 2026,
+    featured: true,
+    stack: [
+      "Next.js 15",
+      "TypeScript",
+      "Tailwind CSS",
+      "Lucide Icons",
+      "IndexedDB",
+      "fflate (ZIP)",
+    ],
+    highlights: [
+      "12 segment types: hero, text, image, grid, callout, character, enemy, boss, loop, dialogue, note, tension",
+      "Custom .GDD file format v2 (ZIP + manifest.json + deduped assets by SHA-256)",
+      "100% client-side, offline-first, no backend, no login, no tracking",
+      "Multi-GDD support with IndexedDB persistence + on-demand asset loading",
+      "Export to HTML, Markdown and PDF",
+      "Light/dark theme with design tokens",
+    ],
+    links: [
+      { label: "Live demo", url: "https://gdd-forge-omega.vercel.app/editor", kind: "demo" },
+      { label: "GitHub", url: "https://github.com/miventech/GDD-Forge", kind: "repo" },
+    ],
+    cover: "/projects/gdd-forge-cover.svg",
+    gallery: [
+      "https://gdd-forge-omega.vercel.app/editor",
+    ],
+    license: "MIT",
+    status: "released",
+  },
+  {
+    slug: "audio-biblia-prompts",
+    title: "La Biblio de Promts",
+    tagline: {
+      en: "Audio & SFX prompt builder for roguelite games — 263 blocks, 11 presets, zero backend",
+      es: "Generador de prompts de audio y SFX para juegos roguelite — 263 bloques, 11 presets, sin backend",
+    },
+    description: {
+      en: "La Biblio de Promts is a free web tool that generates audio (music + SFX) prompts for use in generative AIs like Suno, Udio, Stable Audio and AIVA. Designed specifically for roguelite creators with pixel-art / 8-bit / 16-bit / chiptune aesthetics. 263 catalogued blocks, 11 pre-built presets (Boss 8-bit, Tienda, Balatro, Hades II, Celeste…), drag & drop, double-click alternative, SFX combinator, intensity bar with auto-lock, custom chips, shareable packs (.json), undo/redo, history. UI in Spanish, final prompts in English (better for AIs). 100% static, no build step, zero dependencies.",
+      es: "La Biblio de Promts es una herramienta web gratuita que genera prompts de audio (música + SFX) para usar en IAs generativas como Suno, Udio, Stable Audio y AIVA. Diseñada específicamente para creadores de roguelites con estética pixel-art / 8-bit / 16-bit / chiptune. 263 bloques catalogados, 11 presets pre-armados (Boss 8-bit, Tienda, Balatro, Hades II, Celeste…), drag & drop, doble-click como alternativa, combinador de SFX, barra de intensidad con bloqueo automático, chips custom, packs compartibles (.json), undo/redo, historial. UI en español, prompts en inglés (mejor para las IAs). 100% estática, sin build step, cero dependencias.",
+    },
+    role: {
+      en: "Solo Developer (Design, Code, Data, Copy)",
+      es: "Desarrollador único (Diseño, Código, Datos, Copy)",
+    },
+    category: "tool",
+    year: 2026,
+    featured: true,
+    stack: [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript (ES6+)",
+      "HTML5 Drag and Drop API",
+      "Web Audio API",
+      "localStorage",
+    ],
+    highlights: [
+      "263 catalogued blocks (styles, moods, SFX, instruments, environments…)",
+      "11 pre-built presets (Boss 8-bit, Tienda, Balatro, Hades II, Celeste…)",
+      "Drag & drop + double-click as accessible alternative",
+      "SFX combinator (layer summation)",
+      "Intensity bar with auto-lock on BPM/mood chips",
+      "Custom chips + shareable packs (.json export/import)",
+      "Undo/Redo (30 states), history of last 10 prompts, chip weight system",
+      "~250 KB total, zero build step, zero dependencies",
+    ],
+    links: [
+      { label: "Live demo", url: "https://audio-biblia-promts-ia.vercel.app/", kind: "demo" },
+      { label: "GitHub", url: "https://github.com/miventech/Audio-Biblia-Promts-IA", kind: "repo" },
+    ],
+    cover: "/projects/audio-biblia-cover.svg",
+    license: "MIT",
+    status: "released",
+  },
 ];
 
 export const projectsByCategory = (category: Project["category"]) =>

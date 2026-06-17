@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="La Biblio de Promts — Audio prompt builder for roguelites">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#13131f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#ff8a4c"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+
+  <!-- Prompt output panel -->
+  <g transform="translate(120 110)">
+    <rect width="960" height="200" rx="12" fill="#13131f" stroke="rgba(255,138,76,0.4)"/>
+    <text x="24" y="38" font-family="ui-monospace,monospace" font-size="11" fill="#ff8a4c" letter-spacing="2">⚡ PROMPT GENERATED</text>
+    <g transform="translate(24 60)" font-family="ui-monospace,monospace" font-size="16" fill="#e7e7ee">
+      <text>🎵 <tspan fill="#a48bff">8-bit chiptune</tspan>, <tspan fill="#a48bff">epic boss</tspan>, <tspan fill="#a48bff">140 BPM</tspan></text>
+      <text y="28">⚔️ <tspan fill="#a48bff">orchestral percussion</tspan>, <tspan fill="#a48bff">synth lead</tspan>, <tspan fill="#a48bff">reverb tail</tspan></text>
+      <text y="56">🌙 <tspan fill="#a48bff">dark atmosphere</tspan>, <tspan fill="#a48bff">tension build</tspan></text>
+      <text y="92" font-size="12" fill="#6b6b80">→ ready for Suno · Udio · Stable Audio · AIVA</text>
+    </g>
+  </g>
+
+  <!-- Library + Builder panels -->
+  <g transform="translate(120 340)">
+    <!-- Library -->
+    <rect width="280" height="240" rx="12" fill="#10101a" stroke="rgba(255,255,255,0.08)"/>
+    <text x="20" y="32" font-family="ui-monospace,monospace" font-size="11" fill="#9a9ab0" letter-spacing="2">📚 LIBRARY · 263 BLOCKS</text>
+    <g transform="translate(20 56)" font-family="ui-sans-serif,system-ui" font-size="12">
+      <rect width="240" height="28" rx="6" fill="rgba(124,92,255,0.18)" stroke="rgba(124,92,255,0.5)"/>
+      <text x="12" y="18" fill="#e7e7ee">🎼 8-bit chiptune</text>
+      <rect y="36" width="240" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="12" y="54" fill="#9a9ab0">⚔️ orchestral percussion</text>
+      <rect y="72" width="240" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="12" y="90" fill="#9a9ab0">🌙 dark atmosphere</text>
+      <rect y="108" width="240" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="12" y="126" fill="#9a9ab0">⚡ epic boss fight</text>
+      <rect y="144" width="240" height="28" rx="6" fill="rgba(255,138,76,0.18)" stroke="rgba(255,138,76,0.5)"/>
+      <text x="12" y="162" fill="#e7e7ee">⏱️ 140 BPM</text>
+    </g>
+
+    <!-- Builder -->
+    <g transform="translate(320 0)">
+      <rect width="640" height="240" rx="12" fill="#10101a" stroke="rgba(255,255,255,0.08)"/>
+      <text x="20" y="32" font-family="ui-monospace,monospace" font-size="11" fill="#9a9ab0" letter-spacing="2">🎨 BUILDER · DRAG &amp; DROP</text>
+      <g transform="translate(20 56)">
+        <rect width="140" height="32" rx="16" fill="rgba(124,92,255,0.2)" stroke="rgba(124,92,255,0.6)"/>
+        <text x="14" y="20" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">🎼 8-bit chiptune</text>
+        <rect x="156" width="100" height="32" rx="16" fill="rgba(124,92,255,0.2)" stroke="rgba(124,92,255,0.6)"/>
+        <text x="170" y="20" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">⚡ epic</text>
+        <rect x="272" width="120" height="32" rx="16" fill="rgba(124,92,255,0.2)" stroke="rgba(124,92,255,0.6)"/>
+        <text x="286" y="20" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">⏱️ 140 BPM</text>
+        <rect x="408" width="140" height="32" rx="16" fill="rgba(124,92,255,0.2)" stroke="rgba(124,92,255,0.6)"/>
+        <text x="422" y="20" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">⚔️ orch perc</text>
+
+        <rect y="48" width="180" height="32" rx="16" fill="rgba(255,138,76,0.2)" stroke="rgba(255,138,76,0.6)"/>
+        <text x="14" y="68" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">🌙 dark atmosphere</text>
+        <rect x="196" y="48" width="160" height="32" rx="16" fill="rgba(255,138,76,0.2)" stroke="rgba(255,138,76,0.6)"/>
+        <text x="210" y="68" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">📈 tension build</text>
+        <rect x="372" y="48" width="100" height="32" rx="16" fill="rgba(255,138,76,0.2)" stroke="rgba(255,138,76,0.6)"/>
+        <text x="386" y="68" font-family="ui-sans-serif,system-ui" font-size="13" fill="#e7e7ee">🔁 loop</text>
+
+        <!-- Intensity bar -->
+        <rect y="116" width="600" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+        <rect y="116" width="420" height="6" rx="3" fill="url(#acc)"/>
+        <text y="142" font-family="ui-monospace,monospace" font-size="11" fill="#9a9ab0" letter-spacing="1.5">⚡ INTENSITY 70</text>
+        <text x="560" y="142" font-family="ui-monospace,monospace" font-size="11" fill="#9a9ab0" letter-spacing="1.5">🔒 LOCKED</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(600 660)" font-family="ui-sans-serif,system-ui" text-anchor="middle">
+    <text font-size="32" font-weight="700" fill="#e7e7ee">La Biblio de Promts</text>
+    <text y="32" font-size="14" fill="#9a9ab0">Audio &amp; SFX prompts for roguelites · 263 blocks · MIT · ~250 KB</text>
+  </g>
+</svg>

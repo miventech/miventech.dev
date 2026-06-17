@@ -79,11 +79,24 @@ export const skillGroups: SkillGroup[] = [
     icon: "Terminal",
     items: ["JavaScript / TypeScript", "Python", "PowerShell", "Rust (basics)", "HTML5 / CSS"],
   },
+  {
+    id: "ai-creative",
+    title: {
+      en: "AI & Creative Tools",
+      es: "IA & Herramientas creativas",
+    },
+    icon: "Sparkles",
+    items: [
+      "Prompt engineering for audio (Suno, Udio, Stable Audio, AIVA)",
+      "AI-assisted dev workflows (opencode, Copilot)",
+      "Game-jam targeting with AI generators",
+    ],
+  },
 ];
 
 export const careerStats: CareerStat[] = [
   {
-    value: "23+",
+    value: "26+",
     label: {
       en: "Public repositories",
       es: "Repositorios públicos",
