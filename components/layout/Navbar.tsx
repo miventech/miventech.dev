@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -58,9 +59,13 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           className="group flex items-center gap-2 font-display text-lg font-semibold tracking-tight"
           aria-label="Miventech home"
         >
-          <span className="grid h-7 w-7 place-items-center rounded-md bg-gradient-to-br from-accent to-accent-warm text-bg font-bold">
-            M
-          </span>
+          <Image
+            src="/logo.png"
+            alt="Miventech logo"
+            width={28}
+            height={28}
+            className="h-7 w-7"
+          />
           <span className="hidden sm:inline">{SITE.name}</span>
         </Link>
 

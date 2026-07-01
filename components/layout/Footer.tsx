@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Github, Linkedin, Youtube } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
@@ -14,9 +15,13 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             href={`/${locale}`}
             className="flex items-center gap-2 font-display text-lg font-semibold"
           >
-            <span className="grid h-7 w-7 place-items-center rounded-md bg-gradient-to-br from-accent to-accent-warm text-bg font-bold">
-              M
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Miventech logo"
+              width={28}
+              height={28}
+              className="h-7 w-7"
+            />
             {SITE.name}
           </Link>
           <p className="mt-3 max-w-sm text-sm text-fg-muted">

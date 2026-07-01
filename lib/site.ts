@@ -15,7 +15,7 @@ export const SITE = {
     es: "Desarrollador Unity & VR/XR enfocado en sistemas de gameplay, herramientas nativas del motor y experiencias interactivas. Mantenedor de open-source bajo licencia MIT con 25★ en GitHub y más de 17 títulos publicados en itch.io.",
   },
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://miventech.dev",
-  email: "contact@miventech.dev",
+  email: "miventech@gmail.com",
   social: {
     linkedin: "https://www.linkedin.com/in/jose-jaspe-miventech/",
     github: "https://github.com/miventech",
