@@ -43,7 +43,7 @@ export const skillGroups: SkillGroup[] = [
       es: "Gráficos & Shaders",
     },
     icon: "Sparkles",
-    items: ["Shader Graph", "HLSL", "Rendering Pipelines", "Lighting & Post-FX"],
+    items: ["Shader Graph", "Rendering Pipelines"],
   },
   {
     id: "xr",
@@ -66,7 +66,6 @@ export const skillGroups: SkillGroup[] = [
       "Rider / Visual Studio",
       "MagicaVoxel",
       "Blender",
-      "FMOD",
       "Asset bundling & CI",
     ],
   },
@@ -89,7 +88,6 @@ export const skillGroups: SkillGroup[] = [
     items: [
       "Prompt engineering for audio (Suno, Udio, Stable Audio, AIVA)",
       "AI-assisted dev workflows (opencode, Copilot)",
-      "Game-jam targeting with AI generators",
     ],
   },
 ];

@@ -48,44 +48,7 @@ export const projects: Project[] = [
     license: "MIT",
     status: "maintained",
   },
-  {
-    slug: "detective-96",
-    title: "Detective 96",
-    tagline: {
-      en: "2D mystery investigation game with custom dialogue and evidence systems",
-      es: "Juego 2D de investigación y misterio con sistemas de diálogo y evidencia",
-    },
-    description: {
-      en: "A pixel-art 2D detective game built in Unity. Players search for evidence, interrogate suspects and solve a 90s-flavored case. Features a custom dialogue system, evidence-based progression, character profiles and a fully hand-painted art style. Released with both source code (MIT) and a playable build.",
-      es: "Un juego 2D de detectives en pixel-art construido en Unity. El jugador busca evidencia, interroga sospechosos y resuelve un caso con estética noventera. Incluye sistema de diálogo propio, progresión basada en evidencia, perfiles de personajes y arte completamente pintado a mano. Publicado con código fuente (MIT) y build jugable.",
-    },
-    role: {
-      en: "Solo Developer (Design, Code, Art, Animation)",
-      es: "Desarrollador único (Diseño, Código, Arte, Animación)",
-    },
-    category: "game",
-    year: 2026,
-    featured: true,
-    stack: ["Unity", "C#", "Custom Dialogue System", "Pixel Art", "2D Physics"],
-    highlights: [
-      "Custom dialogue & evidence collection systems",
-      "Hand-painted character profiles and scenes",
-      "Branching investigation flow",
-      "Full source under MIT",
-    ],
-    links: [
-      { label: "GitHub", url: "https://github.com/miventech/Detective-96-Unity-Game-2D", kind: "repo" },
-    ],
-    cover: "https://img.itch.zone/aW1hZ2UvMjEyNDU5Mi8xMjUxNDA2OC5wbmc=/original/mR6iW4.png",
-    gallery: [
-      "https://img.itch.zone/aW1hZ2UvMjEyNDU5Mi8xMjUxNDI2OS5wbmc=/original/%2FOJ3Mh.png",
-      "https://img.itch.zone/aW1hZ2UvMjEyNDU5Mi8xMjUxNDA3MC5wbmc=/original/lpWyzn.png",
-      "https://img.itch.zone/aW1hZ2UvMjEyNDU5Mi8xMjUxNDI3My5wbmc=/original/IPuVfe.png",
-      "https://img.itch.zone/aW1hZ2UvMjEyNDU5Mi8xMjUxNDA3My5wbmc=/original/7CIcet.png",
-    ],
-    license: "MIT",
-    status: "released",
-  },
+  
   {
     slug: "vectorial",
     title: "Vectorial",
